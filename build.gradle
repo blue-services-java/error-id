@@ -13,3 +13,8 @@ compileJava {
 group = 'pl.blueservices'
 description = 'Error ID'
 project.version = scmVersion.version
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.16.18'
+    testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
+}
