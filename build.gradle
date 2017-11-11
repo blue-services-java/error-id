@@ -4,6 +4,10 @@ plugins {
     id 'pl.allegro.tech.build.axion-release' version '1.8.1'
 }
 
+repositories {
+    mavenCentral ()
+}
+
 compileJava {
     sourceCompatibility = JavaVersion.VERSION_1_8
     targetCompatibility = JavaVersion.VERSION_1_8
