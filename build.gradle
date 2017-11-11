@@ -5,7 +5,13 @@ plugins {
 }
 
 repositories {
-    mavenCentral ()
+    mavenCentral()
+}
+
+publishing {
+    repositories {
+        mavenCentral()
+    }
 }
 
 compileJava {
