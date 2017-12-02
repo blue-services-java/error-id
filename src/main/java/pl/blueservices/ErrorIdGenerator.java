@@ -2,7 +2,7 @@ package pl.blueservices;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-class ErrorIdGenerator {
+public class ErrorIdGenerator {
     private static final int MIN_LENGTH = 16;
     private static final char PAD_CHAR = '0';
 
