@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-class Error {
+public class Error {
     private final String id = ErrorIdGenerator.generate();
     private final String message;
 }
